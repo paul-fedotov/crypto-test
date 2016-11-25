@@ -1,0 +1,23 @@
+{
+  "name": "crypto-test-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zex713/crypto-test.git"
+  },
+  "author": "Paul Fedotov (https://github.com/zex713)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zex713/crypto-test/issues"
+  },
+  "homepage": "https://github.com/zex713/crypto-test#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}
