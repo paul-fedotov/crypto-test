@@ -1,16 +1,16 @@
 // @flow
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import styles from './Home.css';
+import styles from './style.css';
 
 
-export default class Home extends Component {
+export default class Start extends Component {
   render() {
     return (
       <div>
         <div className={styles.container}>
-          <h2>Home</h2>
-          <Link to="/counter">to Counter</Link>
+          <h2>start</h2>
+          <Link to="/question/1">to Counter</Link>
         </div>
       </div>
     );
