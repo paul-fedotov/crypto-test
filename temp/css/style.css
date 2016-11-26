@@ -1,0 +1,20 @@
+.menu{
+  padding-top: 10px;
+}
+
+.menu-span{
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.menu-span:hover{
+  color: #000000;
+}
+
+.menu-span:hover{
+  color: #c1c1c1;
+}
+
+.text-center{
+  text-align: center;
+}
