@@ -44,7 +44,8 @@ app.on('ready', async () => {
   mainWindow = new BrowserWindow({
     show: false,
     width: 1024,
-    height: 768
+    height: 768,
+    icon: '../resources/key.png'
   });
 
   mainWindow.loadURL(`file://${__dirname}/app.html`);
