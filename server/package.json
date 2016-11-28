@@ -18,6 +18,8 @@
   "homepage": "https://github.com/zex713/crypto-test#readme",
   "dependencies": {
     "ejs": "^2.5.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0",
+    "password-generator": "^2.0.2"
   }
 }
