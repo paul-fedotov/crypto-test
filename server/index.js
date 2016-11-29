@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/index', function(request, response){
-	response.render('pages/index');
+	response.render('pages/index', {title: 'Dashboard'});
 })
 
 app.listen(app.get('port'), function() {
