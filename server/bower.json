@@ -1,0 +1,20 @@
+{
+  "name": "crypto-test-server",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Paul Fedotov (https://github.com/zex713)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zex713/crypto-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

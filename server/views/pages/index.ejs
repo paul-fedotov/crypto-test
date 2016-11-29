@@ -6,7 +6,23 @@
   </head>
 
   <body>
-	<h2>Hello, world</h2>	
+	<% include ../partials/nav.ejs %>
+
+
+	<div class="container-fluid">
+      	<div class="row">
+        	<div class="col-sm-3 col-md-2 sidebar">
+          		<% include ../partials/menu.ejs %>
+        	</div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<% include ../partials/index/main.ejs %>
+        </div>
+
+      	</div>
+    </div>
+
+	<% include ../partials/index/scripts.ejs %>
   </body>
 
 </html>

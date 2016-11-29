@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+  <head>
+	<% include ../partials/index/head.ejs %>
+  </head>
+
+  <body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand">
+		        <img alt="Brand" src="/image/browser64.png" width="64" height="64">
+		      </a>
+		    </div>
+		</div>
+	</nav>	
+
+	<div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12 col-md-12">
+                    <form class="form-group form-signin">
+                        <div class="form-group">
+                            <label for="Login">Login</label>
+                            <input type="email" class="form-control" id="Login" placeholder="Login"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="Password" placeholder="Password"/>
+                        </div>
+                        <div class="form-group text-right">
+                            <button class="btn btn-large btn-primary" type="submit">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+	<% include ../partials/index/scripts.ejs %>
+  </body>
+
+</html>
