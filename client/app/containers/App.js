@@ -1,5 +1,6 @@
 // @flow
 import React, { Component, PropTypes } from 'react';
+import { Link } from 'react-router';
 
 export default class App extends Component {
   static propTypes = {
@@ -14,6 +15,7 @@ export default class App extends Component {
             <div className="container">
               <a className="navbar-brand"> Logo </a>
               <p className="navbar-text">Crypto Test</p>
+              <Link className="navbar-text" to='/'>Logout</Link>
             </div>
           </nav>
           <div className="col-md-offset-2 col-md-8">
