@@ -20,7 +20,7 @@ var User = new Schema({
 	date: {
 		type: Date,
 		default: Date.now
-	}
+	},
 	isAdmin: {
 		type: Boolean,
 		default: false
@@ -42,24 +42,26 @@ var Test = new Schema({
 	} 
 });
 
-var Question = new Schema({
-	question: {
-		type: String,
-		required: true
-	},
-	answers: {
-		type: Array,
-		required: true
-	}
-});
+exports.User = mongoose.model('User', User);
+exports.Test = mongoose.model('Test', Test);
 
-var Answer = new Schema({
-	answer: {
-		type: String,
-		required: true
-	},
-	isTrue: {
-		type: Boolean,
-		required: true
+exports.Question = class Question {
+	constructor(question, answers) {
+    	this.question = question;
+    	this.answers = answers;
+  	}
+  	get Question(){
+  		return(this);
+  	}
+};
+
+
+exports.Answer = class Answer{
+	constructor(answer, isTrue){
+		this.answer = answer;
+		this.isTrue = isTrue;
 	}
-});
+	get Answer(){
+		return(this);
+	}
+}

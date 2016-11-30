@@ -16,7 +16,6 @@ export default class Question extends Component {
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">2</div>
             <div className="col-xs-12 col-lg-12">
-              <Link to='/'>Logout</Link>
             </div>
           </div>
         </div>
