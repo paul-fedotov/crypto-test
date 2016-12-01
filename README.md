@@ -1,10 +1,10 @@
 # crypto-test
 _Course work in information security._
 
-**Client. **
+# Client. 
 
 Client - react-redux-electron app.
 
-**Server. **
+# Server. 
 
 Server - express-ejs app.
