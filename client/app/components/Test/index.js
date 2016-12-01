@@ -1,6 +1,7 @@
 // @flow
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import './style.css'
 
 export default class Test extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class Test extends Component {
                     <td>Description</td>
                     <td>Questions</td>
                     <td>Start</td>
-                  </tr> 
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>

@@ -6744,3 +6744,31 @@ button.close {
     display: none !important;
   }
 }
+
+.textQuestion{
+  min-height: 400px;
+  background: #f8f8f8;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.textAnswers{
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.textAnswers > label{
+  cursor: pointer;
+}
+
+.textAnswers > label:hover{
+  color: #c1c1c1;
+}

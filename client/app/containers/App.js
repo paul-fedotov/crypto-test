@@ -13,7 +13,9 @@ export default class App extends Component {
         <div className="container">
           <nav className="navbar-fluref navbar-default navbar-fixed-top">
             <div className="container">
-              <a className="navbar-brand"> Logo </a>
+              <a className="navbar-brand" >
+                <img src="./image/browser64.png"/>
+              </a>
               <p className="navbar-text">Crypto Test</p>
               <Link className="navbar-text" to='/'>Logout</Link>
             </div>
